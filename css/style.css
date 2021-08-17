@@ -1,0 +1,86 @@
+/* == font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'arial';
+    src: URL('../fonts/kalpana.ttf') format('truetype');
+  }
+/* == Global values */
+*{
+    margin: 0;
+    padding: 0; 
+}
+:root{
+    --big-font: #242424;
+    --text-color: #444444;
+    --main-color: #19e43b;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+    color: var(--text-color);
+}
+/* == Main Style Start*/
+
+/* == Header area */
+.navbar{
+    border-bottom: 2px solid #b3b3b3;
+}
+.navbar-brand{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: var(--big-font);
+}
+.nav-item{
+    margin: 5px 10px;
+}
+.nav-item a{
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+/* hero-area */
+#hero-area{
+    margin-top: 20px;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay h2{
+    font-size: 90px;
+    color: #fff;
+    font-family: 'arial';
+}
+.overlay p{
+    font-size: 17px;
+    color: #fff;
+}
+.overlay button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 3px 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+}
+.overlay button:hover{
+    background-color: white;
+    color: var(--text-color);
+}
+.carousel-item {
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
+}
+.carousel-item img{
+   
+    opacity: 0.5;
+}
