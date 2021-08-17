@@ -1,0 +1,46 @@
+/* Mobile Devices */
+@media only screen and (max-width: 468px) {
+   /* hero section */
+    .overlay h2{
+        font-size: 37px;
+        color: #fff;
+        font-family: 'arial';
+    }
+    .overlay p{
+        font-size: 10px;
+        color: #fff;
+    }
+    .overlay button{
+        padding: 3px 10px;
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+
+ }
+ 
+ 
+ /* mobile to ipad Devices */
+ @media (min-width: 468px) and (max-width: 993px) {
+    .overlay h2{
+        font-size: 45px;
+        color: #fff;
+        font-family: 'arial';
+    }
+    .overlay p{
+        font-size: 13px;
+        color: #fff;
+    }
+    .overlay button{
+        padding: 3px 10px;
+        font-size: 13px;
+        margin-right: 2px;
+    }
+ 
+ }
+ 
+ /* Ipad to desktop Devices */
+ @media only screen and (min-width: 768px){
+     
+ 
+ }
