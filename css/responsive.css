@@ -1,21 +1,21 @@
 /* Mobile Devices */
 @media only screen and (max-width: 468px) {
    /* hero section */
-    .overlay h2{
+    .content h2{
         font-size: 70px;
         color: #fff;
         font-family: 'arial';
     }
-    .overlay p{
+    .content p{
         font-size: 15px;
         color: #fff;
         text-align: justify;
     }
-    .overlay #readMoreButton {
+    .content #readMoreButton {
         font-size: 13px;
         margin-right: 2px;
     }
-    .overlay #loactionButton {
+    .content #loactionButton {
         font-size: 13px;
         margin-right: 2px;
     }
@@ -29,21 +29,21 @@
  
  /* mobile to ipad Devices */
  @media (min-width: 468px) and (max-width: 993px) {
-    .overlay h2{
+    .content h2{
         font-size: 100px;
         color: #fff;
         font-family: 'arial';
     }
-    .overlay p{
+    .content p{
         font-size: 15px;
         color: #fff;
         text-align: justify;
     }
-    .overlay #readMoreButton{
+    .content #readMoreButton{
         font-size: 15px;
         margin-right: 2px;
     }
-    .overlay #loactionButton{
+    .content #loactionButton{
         font-size: 15px;
         margin-right: 2px;
     }

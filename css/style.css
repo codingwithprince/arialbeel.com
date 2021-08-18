@@ -52,7 +52,7 @@ body{
 
 /* hero-area */
 #navbar-area{
-    background-position: center;
+     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -62,9 +62,10 @@ body{
     overflow: hidden;
     -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover;
+        -o-background-size: cover; 
 }
-@keyframes slider {
+
+ @keyframes slider {
     0%{
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../images/img1.jpg');
     }
@@ -95,9 +96,9 @@ body{
     100%{
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('../images/img2.jpg');
     }
-}
+} 
 
-.overlay{
+.content{
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -106,18 +107,18 @@ body{
     text-align: center;
     transition: 0.5s ease-in-out;
 }
-.overlay h2{
+.content h2{
     font-size: 120px;
     color: #fff;
     font-family: 'arial';
     text-shadow: 5px 5px 20px lightgray;
 }
-.overlay p{
+.content p{
     font-size: 17px;
     color: #fff;
     text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.185);
 }
-.overlay #readMoreButton{
+.content #readMoreButton{
     background-color: transparent;
     border: 1px solid white;
     padding: 7px 10px;
@@ -128,7 +129,7 @@ body{
     transition: 0.5s;
     margin-top: 20px;
 }
-.overlay #loactionButton{
+.content #loactionButton{
     background-color: #fff;
     border: 1px solid white;
     padding: 7px 10px;
@@ -140,11 +141,11 @@ body{
     margin-top: 20px;
 }
 
-.overlay #readMoreButton:hover{
+.content #readMoreButton:hover{
     background-color: #fff;
     color: var(--text-color);
 }
-.overlay #loactionButton:hover{
+.content #loactionButton:hover{
     background-color: transparent;
     color: #fff;
     box-shadow: 2px 5px 20px lightgray;
