@@ -26,10 +26,9 @@ body{
 
 /* == Header area */
 .navbar{
-    
     padding: 5px 10%;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.185);
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand{
@@ -60,7 +59,6 @@ body{
     animation: slider 40s infinite;
     position: relative;
     overflow: hidden;
-    background-repeat: no-repeat;
 /* 
     -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -108,6 +106,11 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     transition: 0.5s ease-in-out;
+}
+.bg-darks{
+    width: 100%;
+   height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
 }
 .content h2{
     font-size: 120px;
