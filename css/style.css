@@ -50,10 +50,8 @@ body{
     font-size: 18px;
     color: #fff;
 }
-
-/* hero-area */
 #navbar-area{
-     background-position: center;
+    background-position: center;
     background-size: cover;
     min-height:100%;
     background-repeat: no-repeat;
@@ -70,10 +68,10 @@ body{
 
  @keyframes slider {
     0%{
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../images/img1.jpg');
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../images/img1.jpg');
     }
     20%{
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('../images/img1.jpg');
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('../images/img1.jpg');
     }
     20.01%{
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('../images/img2.jpg');
