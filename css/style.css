@@ -55,12 +55,14 @@ body{
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url('../images/img1.jpg');
     height: 100vh;
     max-width: 100%;
-    animation: sliders 40s infinite;
+    animation: slider 40s infinite;
     position: relative;
     overflow: hidden;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
 }
 @keyframes slider {
     0%{
