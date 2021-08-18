@@ -59,6 +59,7 @@ body{
     animation: slider 40s infinite;
     position: relative;
     overflow: hidden;
+    transition: 0.4s ease-in-out;
 /* 
     -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -68,6 +69,7 @@ body{
  @keyframes slider {
     0%{
         background-image:url('../images/img1.jpg');
+        background-position: right;
     }
     20%{
         background-image: url('../images/img1.jpg');
