@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/all.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <title>Arial Beel</title>
 </head>
@@ -24,7 +27,7 @@
         <!-- navbar area -->
         <section id="navbar-area">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">Arial Beel</a>
+                <a class="navbar-brand" href="#" data-aos="flip-up">Arial Beel</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-icons">
@@ -54,8 +57,8 @@
            <!--Overlay  -->
            <div class="bg-darks"></div>
             <div class="content">
-                <h2 id="bigText">আড়িয়াল বিল</h2>
-                <p>Arial Beel is the third largest wetland in Bangladesh covering an area of 136 sq. km. It is situated in Sreenagar Upazila of Munshiganj District. </p>
+                <h2 id="bigText" data-aos="zoom-out-left">আড়িয়াল বিল</h2>
+                <p data-aos="zoom-out-right">Arial Beel is the third largest wetland in Bangladesh covering an area of 136 sq. km. It is situated in Sreenagar Upazila of Munshiganj District. </p>
                 <button id="readMoreButton">Read More</button>
                 <button id="loactionButton"><i class="fas fa-map-marker-alt"></i> Location</button>
             </div>
@@ -73,6 +76,9 @@
 
     
     <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Main -->
+    <script src="js/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -83,7 +89,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+       
+        <!-- AOS JS -->
+        
 </body>
 
 </html>

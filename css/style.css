@@ -38,6 +38,11 @@ body{
     text-decoration: none;
     color: #fff;
 }
+.navbar-brand:hover{
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 2px 5px 20px lightgray;
+}
 .navbar-icons i{
     color: #fff;
     font-size: 30px;
@@ -115,7 +120,7 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
 }
 .content h2{
-    font-size: 120px;
+    font-size: 150px;
     color: #fff;
     font-family: 'arial';
     text-shadow: 5px 5px 20px lightgray;

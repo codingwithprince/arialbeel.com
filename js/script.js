@@ -10,3 +10,6 @@
 //                 bigText.style.transition = '0.5s';
 //             }
 //         });
+AOS.init({
+    duration: 1200,
+});
