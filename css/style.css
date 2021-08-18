@@ -69,14 +69,10 @@ body{
 
  @keyframes slider {
     0%{
-        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../images/img1.jpg') no-repeat center center;
-        min-height:100%;
-        background-size:cover;
+        background-image:url('../images/img2.jpg');
     }
     20%{
-        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('../images/img1.jpg') no-repeat center center;
-        min-height:100%;
-        background-size:cover;
+        background-image: url('../images/img2.jpg');
     }
     20.01%{
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('../images/img2.jpg');
