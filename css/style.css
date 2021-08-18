@@ -60,6 +60,9 @@ body{
     animation: slider 40s infinite;
     position: relative;
     overflow: hidden;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
 }
 @keyframes slider {
     0%{
