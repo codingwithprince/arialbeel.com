@@ -19,10 +19,12 @@
         font-size: 13px;
         margin-right: 2px;
     }
-    /* #navbar-area{
-       animation: none;
-       background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('../images/img2.jpg');
-    } */
+    
+    /* About area */
+    .about{
+        padding: 5px;
+        margin: 10px;
+    }
 
  }
  
@@ -46,6 +48,11 @@
     .content #loactionButton{
         font-size: 15px;
         margin-right: 2px;
+    }
+    /* about area */
+    .about{
+        padding: 5px;
+        margin: 10px;
     }
  }
  

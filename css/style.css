@@ -163,3 +163,27 @@ body{
     box-shadow: 2px 5px 20px lightgray;
 }
 
+/* === About area */
+.section-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--big-font);
+    margin: 50px 0;
+    letter-spacing: 2px;
+}
+.about{
+    padding: 5% 10%;
+    margin: 10px;
+}
+.about-text{
+    font-size: 17px;
+    color: var(--text-color);
+    text-align: justify;
+}
+#hide{
+    display: none;
+}
+#readMore{
+    margin-bottom: 20px;
+}
